@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcd295e5-4aa2-4b5f-b092-4e673926de05" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/better-wp-security/core/class-itsec-lib.php" afterPath="$PROJECT_DIR$/wp-content/plugins/better-wp-security/core/class-itsec-lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.html" afterPath="$PROJECT_DIR$/readme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/tracks/class.tracks-client.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/tracks/class.tracks-client.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/Connect2.1/.gitignore" />
         <option value="$PROJECT_DIR$/wp-admin/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/readme.html" />
       </list>
     </option>
   </component>
@@ -216,12 +217,12 @@
       <option name="presentableId" value="Default" />
       <updated>1514901888122</updated>
       <workItem from="1514901890281" duration="1150000" />
-      <workItem from="1514905800767" duration="139000" />
+      <workItem from="1514905800767" duration="207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1289000" />
+    <option name="totallyTimeSpent" value="1357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="23" width="1379" height="877" extended-state="6" />
@@ -492,6 +493,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
