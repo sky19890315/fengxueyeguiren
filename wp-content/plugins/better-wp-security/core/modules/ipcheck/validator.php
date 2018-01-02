@@ -36,4 +36,26 @@ class ITSEC_Network_Brute_Force_Validator extends ITSEC_Validator {
 				$this->set_can_save( false );
 				$this->add_error( $key );
 			} else {
-				$secret = ITSEC_Network_Brute_Force_Ut
+				$secret = ITSEC_Network_Brute_Force_Utilities::activate_api_key( $key );
+				
+				if ( is_wp_error( $secret ) ) {
+					$this->set_can_save( false );
+					$this->add_error( $secret );
+				} else {
+					$this->settings['api_key'] = $key;
+					$this->settings['api_secret'] = $secret;
+
+					$this->settings['api_nag'] = false;
+
+					ITSEC_Response::reload_module( $this->get_id() );
+				}
+			}
+		}
+		
+		if ( $this->can_save() ) {
+			unset( $this->settings['email'] );
+		}
+	}
+}
+
+ITSEC_Modules::register_validator( new ITSEC_Network_Brute_Force_Validator() );
